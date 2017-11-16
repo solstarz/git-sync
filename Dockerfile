@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM ARG_FROM
+# FROM ARG_FROM
 
-MAINTAINER Tim Hockin <thockin@google.com>
+# MAINTAINER Tim Hockin <thockin@google.com>
 
 ADD bin/ARG_ARCH/ARG_BIN /ARG_BIN
 ENV GIT_SYNC_DEST /git
